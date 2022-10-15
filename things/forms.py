@@ -5,6 +5,6 @@ from django import forms
 
 class ThingForm(forms.Form):
     name = forms.CharField(label="Name")
-    description = forms.Textarea(label="Description")
-    quantity = forms.NumberInput(label="")
+    description = forms.Textarea()
+    quantity = forms.NumberInput()
 
